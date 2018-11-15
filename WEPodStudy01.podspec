@@ -90,8 +90,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "PodStudy01/PodStudy01/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "PodStudy01/*.{h,m}"
+  # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "runtime/WEPodStudy01.h"
 
